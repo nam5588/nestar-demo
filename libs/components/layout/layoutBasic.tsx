@@ -22,7 +22,7 @@ const withLayoutBasic = (Component: any) => {
 						boxShadow: "inset 10px 40px 150px 40 px rgb(24 22 36)"
 						}}>
 							<Stack className="container">
-								<strong>Property Search</strong>
+								<strong>Search</strong>
 								<span>We are glad to see you again!</span>
 							</Stack>
 					</Stack>

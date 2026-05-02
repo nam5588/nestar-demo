@@ -3,13 +3,13 @@ import { useState } from "react";
 import withLayoutBasic from "@/libs/components/layout/LayoutBasic";
 import { Stack } from "@mui/material";
 
-const Community:NextPage = () => {
+const CS:NextPage = () => {
 	const [title, setTitle] = useState<string>("hello");
 	return (
 		<div style={{margin: "20px 0"}}>
-			<Stack className="container">COMMUNITY</Stack>;
+			<Stack className="container">CS</Stack>;
 		</div>
 	);
 };
 
-export default withLayoutBasic(Community);
+export default withLayoutBasic(CS);
