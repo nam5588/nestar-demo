@@ -1,4 +1,4 @@
-import withLayoutBasic from "@/libs/components/layout/layoutBasic";
+import withLayoutBasic from "@/libs/components/layout/LayoutBasic";
 import {Container } from "@mui/material";
 import { NextPage } from "next";
 

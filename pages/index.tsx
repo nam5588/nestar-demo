@@ -1,5 +1,5 @@
-import withLayoutMain from "@/libs/components/layout/layoutHome";
-import { Box, Container, Stack } from "@mui/material";
+import withLayoutMain from "@/libs/components/layout/LayoutHome";
+import { Stack } from "@mui/material";
 import { NextPage } from "next";
 
 const Home: NextPage = () => {
