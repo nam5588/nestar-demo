@@ -23,8 +23,8 @@ export default function Document() {
 				/>
 			</Head>
 			<body>
-				<Main />
-				<NextScript />
+				<Main /> {/* _app.tsx va sahifalar render bo'ladigan joy */}
+				<NextScript /> {/* Next.js o'zining JS fayllarini avtomatik qo'shadi (chunk'lar, router va h.k.) */}
 			</body>
 		</Html>
 	);
