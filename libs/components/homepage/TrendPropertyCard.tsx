@@ -1,7 +1,7 @@
 import React from 'react';
-import { Stack, Box } from '@mui/material';
+import { Stack, Box, IconButton } from '@mui/material';
 import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
-import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
+import FavoriteIcon from '@mui/icons-material/Favorite';
 
 const TrendPropertyCard = () => {
 	return (
@@ -34,9 +34,10 @@ const TrendPropertyCard = () => {
 					<Box className={'view-like-box'}>
 						<RemoveRedEyeIcon fontSize={'small'} />
 						<span className={'view-cnt'}>90</span>
-						<button>
-							<FavoriteBorderIcon fontSize={'small'} />
-						</button>
+						<IconButton color="default" size="small">
+							<FavoriteIcon fontSize="small" style={{ color: 'red' }} />
+						</IconButton>
+						<span className={'view-cnt'}>90</span>
 					</Box>
 				</Box>
 			</Box>

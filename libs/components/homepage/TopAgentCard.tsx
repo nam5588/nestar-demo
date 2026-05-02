@@ -8,8 +8,8 @@ const TopAgentCard = () => {
 				<img src={'/img/profile/girl.svg'} alt="agent" />
 			</Box>
 			<Box className={'agent-info'}>
-				<strong>Martin</strong>
-				<span>Agent </span>
+				<strong>Anna</strong>
+				<span>Agent 1</span>
 			</Box>
 		</Stack>
 	);
